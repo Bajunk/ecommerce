@@ -12,6 +12,7 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('default/index.html.twig');
+        $age = 23;
+        return $this->render('default/index.html.twig', array('age' => $age));
     }
 }
