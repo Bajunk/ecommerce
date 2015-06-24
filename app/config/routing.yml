@@ -1,3 +1,13 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+pages:
+    resource: "@PagesBundle/Resources/config/routing.yml"
+    prefix:   /ecomsite
+
+ecommerce_site:
+    resource: "@EcommerceSiteBundle/Resources/config/routing.yml"
+    prefix:   /ecomsite
+
+ecommerce:
+    resource: "@EcommerceBundle/Resources/config/routing.yml"
+    prefix:   /ecom
+
+

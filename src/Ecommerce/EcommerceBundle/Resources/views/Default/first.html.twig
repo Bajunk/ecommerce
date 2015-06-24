@@ -1,0 +1,13 @@
+{% extends '::base.html.twig' %}
+
+{% block anciennenavigation %}
+    <ul>
+        <li> <a href="{{ path('ecommerce_homepage') }}"> Accueil </a></li>
+        <li> <a href="{{ path('ecommerce_first', {id:1}) ~ '.html' }}   "> First</a></li>
+        <li> <a href="{{ path('ecommerce_second') }}  "> Second  </a> </li>
+    </ul>
+{% endblock %}
+
+{% block body %}
+    <h1> First : {{ id }}</h1>
+{% endblock %}
