@@ -1,0 +1,10 @@
+{% extends ':layout:baseLayout.html.twig' %}
+
+{% block body %}
+<h3>Formulaire:</h3>
+
+<form action="{{ path('ecommerce_site_prod_crea_form') }}" method="post">
+{{ form(form) }}
+</form>
+
+{% endblock %}

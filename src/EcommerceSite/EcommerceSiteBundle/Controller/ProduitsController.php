@@ -66,7 +66,7 @@ class ProduitsController extends Controller
 
         }
 
-        return $this->render('EcommerceSiteBundle:Produits/Layout:formulaireproduit.html.twig',
+        return $this->render('EcommerceSiteBundle:Produits/Layout:formulaireproduits.html.twig',
             array('form' => $formView));
     }
 }

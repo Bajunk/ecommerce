@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9310c7-f402-4ba2-bf25-dad8ba08020b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Categories.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/CategoriesRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Commandes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/CommandesRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/DependencyInjection/Configuration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Tests/Controller/DefaultControllerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Media.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/MediaRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Produits.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/ProduitsRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Tva.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/TvaRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Entity/Utilisateurs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/UtilisateursAdresses.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/UtilisateursAdressesRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/UtilisateursBundle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Controller/UtilisateursController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/DependencyInjection/UtilisateursExtension.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Repository/UtilisateursRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/index.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/doc/index.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/translations/messages.fr.xlf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/config/routing.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/formulaireproduits.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/ProduitsController.php" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/ProduitsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="a893aecc-054b-49ad-801a-813ca1998429" name="Failed commit: Default" comment="Commit file after failure" />
     <ignored path="ecommerce.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -113,11 +91,9 @@
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Form/ProduitType.php" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/formulaireproduit.html.twig" />
         <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/TvaRepository.php" />
         <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/MediaRepository.php" />
         <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/CategoriesRepository.php" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/ProduitsController.php" />
         <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/UtilisateursAdressesRepository.php" />
         <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/CommandesRepository.php" />
         <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Tva.php" />
@@ -135,6 +111,8 @@
         <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadProduitsData.php" />
         <option value="db-console:/692d3e2d/c786055a-cae6-403a-9074-921bf1c1a15a/" />
         <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadUtilisateursData.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/formulaireproduit.html.twig" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/ProduitsController.php" />
       </list>
     </option>
   </component>
@@ -571,11 +549,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\EcommerceSite\EcommerceSiteBundle\Resources\views\Produits\Layout" />
       <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\EcommerceSite\EcommerceSiteBundle\DataFixtures\ORM" />
       <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\app\Resources\translations" />
       <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\Utilisateurs\UtilisateursBundle\Resources\views\Utilisateurs\ModulesUsed" />
       <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\app\Resources\FOSUserBundle" />
-      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\Pages\PagesBundle\Resources\views\Pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\EcommerceSite\EcommerceSiteBundle\Repository" />
@@ -661,7 +639,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435600876014</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rectification">
+      <created>1435601171694</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1435601171694</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -689,7 +673,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.534202" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.534202" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41530946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21903323" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -697,7 +681,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21978852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21978852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18277946" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32736155" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32736155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -753,6 +737,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
@@ -763,7 +748,8 @@
     <MESSAGE value="Ajout fichiers manquants" />
     <MESSAGE value="Montage structure BDD&#10;Creation des entités" />
     <MESSAGE value="Rectification" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rectification" />
+    <MESSAGE value="Commit file after failure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit file after failure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -973,14 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5966102" vertical-offset="56" max-vertical-offset="646">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/ProduitsRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590">
@@ -1002,18 +980,6 @@
         <state vertical-scroll-proportion="0.3617021" vertical-offset="0" max-vertical-offset="564">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/ProduitsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0181488" vertical-offset="0" max-vertical-offset="1326">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#64#118#0#PHP" expanded="true" />
-            <element signature="e#1032#1092#0#PHP" expanded="true" />
-            <element signature="e#1887#1952#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1180,17 +1146,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/formulaireproduit.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2361111" vertical-offset="0" max-vertical-offset="360">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-            <element signature="e#108#137#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="260">
@@ -1204,6 +1159,36 @@
         <state vertical-scroll-proportion="5.6666665" vertical-offset="0" max-vertical-offset="1683">
           <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34615386" vertical-offset="386" max-vertical-offset="646">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/formulaireproduits.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="260">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#40#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/ProduitsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="874" max-vertical-offset="1326">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding>
+            <element signature="e#64#118#0#PHP" expanded="true" />
+            <element signature="e#1032#1092#0#PHP" expanded="true" />
+            <element signature="e#1887#1953#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
