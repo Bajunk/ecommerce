@@ -19,6 +19,9 @@ class AppKernel extends Kernel
             new Ecommerce\EcommerceBundle\EcommerceBundle(),
             new EcommerceSite\EcommerceSiteBundle\EcommerceSiteBundle(),
             new Pages\PagesBundle\PagesBundle(),
+            new FOS\UserBundle\FOSUserBundle(),
+            new Utilisateurs\UtilisateursBundle\UtilisateursBundle(),
+            new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
@@ -26,6 +29,7 @@ class AppKernel extends Kernel
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
+            $bundles[] = new Elao\WebProfilerExtraBundle\WebProfilerExtraBundle();
         }
 
         return $bundles;

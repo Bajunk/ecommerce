@@ -5,35 +5,45 @@
         <div class="row">
             <div class="span3">
                 {% include ':modulesUsed:navigation.html.twig' %}
+                {% include ':modulesUsed:utilisateur.html.twig' %}
             </div>
+
             <div class="span9">
 
                 <ul class="thumbnails">
                     {% for i in 1..3 %}
-                    <li class="span3">
-                        <div class="thumbnail">
-                            <img src="{{ asset('img/holder.png') }}" alt="HolderImage" width="300" height="300">
-                            <div class="caption">
-                                <h4>Thumbnail label</h4>
-                                <p>100,00 €</p>
-                                <a class="btn btn-primary" href="{{path('ecommerce_site_prod_presentation')}}">Plus d'infos</a>
-                                <a class="btn btn-success" href="{{ path('ecommerce_site_panier_homepage') }}">Ajouter au panier</a>
+                        <li class="span3">
+                            <div class="thumbnail">
+                                <img src="{{ asset('img/holder.png') }}" alt="HolderImage" width="300" height="300">
+
+                                <div class="caption">
+                                    <h4>Thumbnail label</h4>
+
+                                    <p>100,00 €</p>
+                                    <a class="btn btn-primary" href="{{ path('ecommerce_site_prod_presentation') }}">Plus
+                                        d'infos</a>
+                                    <a class="btn btn-success" href="{{ path('ecommerce_site_panier_homepage') }}">Ajouter
+                                        au panier</a>
+                                </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
 
 
-                    <li class="span3">
-                        <div class="thumbnail">
-                            <img src="{{ asset('img/holder.png') }}" alt="HolderImage" width="300" height="300">
-                            <div class="caption">
-                                <h4>Thumbnail label</h4>
-                                <p>Euro 100,00</p>
-                                <a class="btn btn-primary" href="{{path('ecommerce_site_prod_presentation')}}">Plus d'infos</a>
-                                <a class="btn btn-success" href="{{path('ecommerce_site_panier_homepage')}}">Ajouter au panier</a>
+                        <li class="span3">
+                            <div class="thumbnail">
+                                <img src="{{ asset('img/holder.png') }}" alt="HolderImage" width="300" height="300">
+
+                                <div class="caption">
+                                    <h4>Thumbnail label</h4>
+
+                                    <p>Euro 100,00</p>
+                                    <a class="btn btn-primary" href="{{ path('ecommerce_site_prod_presentation') }}">Plus
+                                        d'infos</a>
+                                    <a class="btn btn-success" href="{{ path('ecommerce_site_panier_homepage') }}">Ajouter
+                                        au panier</a>
+                                </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
                     {% endfor %}
                 </ul>
 

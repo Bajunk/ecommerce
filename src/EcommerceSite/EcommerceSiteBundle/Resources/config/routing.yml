@@ -17,3 +17,16 @@ ecommerce_site_produits_homepage:
 ecommerce_site_prod_presentation:
     path:     /prod
     defaults: { _controller: EcommerceSiteBundle:Produits:presentation }
+
+ecommerce_site_prod_ajout:
+    path:     /ajout
+    defaults: { _controller: EcommerceSiteBundle:Produits:ajoutProd }
+
+ecommerce_site_prod_effacement:
+    path:     /efface
+    defaults: { _controller: EcommerceSiteBundle:Produits:effacerProd }
+
+ecommerce_site_prod_crea_form:
+    path:     /form
+    defaults: { _controller: EcommerceSiteBundle:Produits:creationFormulaire }
+
