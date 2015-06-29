@@ -26,7 +26,8 @@
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
-        "elao/web-profiler-extra-bundle" : "~2.3@dev"
+        "elao/web-profiler-extra-bundle" : "~2.3@dev",
+        "phpunit/phpunit": "4.7.*"
     },
     "scripts": {
         "post-root-package-install": [

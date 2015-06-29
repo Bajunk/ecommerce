@@ -3,7 +3,7 @@
   <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0" />
   <component name="PhpUnit">
     <phpunit_settings>
-      <PhpUnitSettings />
+      <PhpUnitSettings custom_loader_path="" phpunit_phar_path="$USER_HOME$/Desktop/DI4/Stage 2015/phpunit.phar" />
     </phpunit_settings>
   </component>
 </project>

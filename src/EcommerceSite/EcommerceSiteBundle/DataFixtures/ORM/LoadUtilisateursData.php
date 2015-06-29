@@ -15,9 +15,18 @@ use Utilisateurs\UtilisateursBundle\Entity\Utilisateurs;
 class LoadUtilisateursData extends AbstractFixture implements OrderedFixtureInterface, ContainerAwareInterface{
 
     /**
-     * @var
+     * @var ContainerInterface
      */
     private $container;
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setContainer(ContainerInterface $container = null)
+    {
+        $this->container = $container;
+    }
+
 
     /**
      * Load data fixtures with the passed EntityManager
@@ -26,12 +35,29 @@ class LoadUtilisateursData extends AbstractFixture implements OrderedFixtureInte
      */
     public function load(ObjectManager $manager)
     {
+        $utilisateur1 = new Utilisateurs();
+        $utilisateur1->setUsername('John');
+        $utilisateur1->setEmail('john@doe.com');
+        $utilisateur1->setEnabled(true);
+        $utilisateur1->setPassword($this->container->get('security.encoder_factory')
+                                                   ->getEncoder($utilisateur1)
+                                                   ->encodePassword('nobody',$utilisateur1->getSalt()));
+        $manager->persist($utilisateur1);
 
+        $utilisateur2 = new Utilisateurs();
+        $utilisateur2->setUsername('Oliver');
+        $utilisateur2->setEmail('oliver@doe.com');
+        $utilisateur2->setEnabled(true);
+        $utilisateur2->setPassword($this->container->get('security.encoder_factory')
+                                                   ->getEncoder($utilisateur2)
+                                                   ->encodePassword('anybody',$utilisateur2->getSalt()));
+        $manager->persist($utilisateur2);
 
         $manager->flush();
 
-        //$this->addReference('',);
-        //$this->addReference('',);
+        $this->addReference('utilisateur1',$utilisateur1);
+        $this->addReference('utilisateur2',$utilisateur2);
+
 
     }
 
@@ -42,18 +68,7 @@ class LoadUtilisateursData extends AbstractFixture implements OrderedFixtureInte
      */
     public function getOrder()
     {
-        return 3;
+        return 5;
     }
 
-    /**
-     * Sets the Container.
-     *
-     * @param ContainerInterface|null $container A ContainerInterface instance or null
-     *
-     * @api
-     */
-    public function setContainer(ContainerInterface $container = null)
-    {
-        $this->$container = $container;
-    }
 }
