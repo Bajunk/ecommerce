@@ -2,62 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9310c7-f402-4ba2-bf25-dad8ba08020b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadCategoriesData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadMediaData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadProduitsData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadTvaData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadUtilisateursData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Form/ProduitType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/changePassword.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/changePassword_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/checkEmail.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/checkEmail.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/edit.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/edit_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/email.txt.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/email.txt.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/list.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/list_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/mentor.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/new.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/new_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/passwordAlreadyRequested.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/request.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/request_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/reset.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/reset_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/show.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/show.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/show_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/show_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/ModulesUsed/utilisateurs.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/ModulesUsed/utilisateursConnectes.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/ProduitsController.php" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/ProduitsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/modulesUsed/navigation.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/modulesUsed/navigation.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/modulesUsed/panier.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/modulesUsed/panier.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/presentation.html.twig" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/presentation.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/produits.html.twig" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/produits.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pages/PagesBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Pages/PagesBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/modulesUsed/utilisateur.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/modulesUsed/utilisateur.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Categories.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/CategoriesRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Commandes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/CommandesRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/DependencyInjection/Configuration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Tests/Controller/DefaultControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Media.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/MediaRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Produits.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/ProduitsRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Tva.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/TvaRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Entity/Utilisateurs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/UtilisateursAdresses.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/UtilisateursAdressesRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/UtilisateursBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Controller/UtilisateursController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/DependencyInjection/UtilisateursExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Repository/UtilisateursRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/doc/index.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/translations/messages.fr.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/config/routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/config/services.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ecommerce.iws" />
@@ -686,7 +655,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435156718992</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Montage structure BDD&#10;Creation des entités">
+      <created>1435600876014</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1435600876014</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -714,7 +689,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.534202" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.534202" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41530946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21903323" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -722,7 +697,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21978852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21978852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18277946" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32736155" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32736155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -787,20 +762,14 @@
     <MESSAGE value="Mise en place de la vue du site" />
     <MESSAGE value="Ajout fichiers manquants" />
     <MESSAGE value="Montage structure BDD&#10;Creation des entités" />
-    <option name="LAST_COMMIT_MESSAGE" value="Montage structure BDD&#10;Creation des entités" />
+    <MESSAGE value="Rectification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rectification" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/changePassword.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/ModulesUsed/utilisateursConnectes.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27224198" vertical-offset="0" max-vertical-offset="562">
@@ -1103,7 +1072,7 @@
         <state vertical-scroll-proportion="0.8351064" vertical-offset="328" max-vertical-offset="2244">
           <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
           <folding>
-            <element signature="e#58#106#0#PHP" expanded="true" />
+            <element signature="e#58#106#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1137,14 +1106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Categories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54626334" vertical-offset="1019" max-vertical-offset="1683">
-          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Tva.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.25444838" vertical-offset="296" max-vertical-offset="2210">
@@ -1166,7 +1127,7 @@
         <state vertical-scroll-proportion="0.18149467" vertical-offset="51" max-vertical-offset="935">
           <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
-            <element signature="e#69#118#0#PHP" expanded="true" />
+            <element signature="e#69#118#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1204,7 +1165,7 @@
         <state vertical-scroll-proportion="0.7882562" vertical-offset="441" max-vertical-offset="1207">
           <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
           <folding>
-            <element signature="e#69#118#0#PHP" expanded="true" />
+            <element signature="e#69#118#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1227,6 +1188,22 @@
             <element signature="e#12#40#0#Twig" expanded="true" />
             <element signature="e#108#137#0#Twig" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="260">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.6666665" vertical-offset="0" max-vertical-offset="1683">
+          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
