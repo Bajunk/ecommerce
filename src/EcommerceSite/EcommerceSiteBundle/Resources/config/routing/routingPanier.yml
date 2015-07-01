@@ -1,0 +1,19 @@
+ecommerce_site_panier_homepage:
+    path:     /
+    defaults: { _controller: EcommerceSiteBundle:Panier:panier }
+
+ecommerce_site_panier_livraison:
+    path:     /livraison
+    defaults: { _controller: EcommerceSiteBundle:Panier:livraison }
+
+ecommerce_site_panier_validation:
+    path:     /validation
+    defaults: { _controller: EcommerceSiteBundle:Panier:validation }
+
+ecommerce_site_panier_ajouter:
+    path:     /ajouter/{id}
+    defaults: { _controller: EcommerceSiteBundle:Panier:ajouter }
+
+ecommerce_site_panier_supprimer:
+    path:     /supprimer/{id}
+    defaults: { _controller: EcommerceSiteBundle:Panier:supprimer }

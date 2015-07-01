@@ -100,4 +100,110 @@
       <index name="IDX_95A7AD7AFB88E14F" unique="false" columns="utilisateur_id"/>
     </table>
   </data-source>
+  <data-source name="MySQL - ecommercesite@localhost" uuid="157afac5-5fc2-4e7f-972c-d0a34e42ba5c">
+    <database-info product="MySQL" version="5.6.15-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="ecommercesite"/>
+    <table name="categories" schema="" catalog="ecommercesite" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="image_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="nom" sqlType="VARCHAR" precision="125" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FK_3AF346683DA5256D" columns="image_id" ref-table="media" ref-schema="" ref-catalog="ecommercesite" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="FK_BE2DDF8CBCF5E72D" table="produits" schema="" catalog="ecommercesite" columns="categorie_id"/>
+      <index name="UNIQ_3AF346683DA5256D" unique="true" columns="image_id"/>
+    </table>
+    <table name="commandes" schema="" catalog="ecommercesite" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="utilisateur_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="valider" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="date" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="reference" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="produits" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="false" jdbcType="-1" remarks="KERDMlR5cGU6YXJyYXkp"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FK_35D4282CFB88E14F" columns="utilisateur_id" ref-table="utilisateurs" ref-schema="" ref-catalog="ecommercesite" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="IDX_35D4282CFB88E14F" unique="false" columns="utilisateur_id"/>
+    </table>
+    <table name="media" schema="" catalog="ecommercesite" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="path" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="alt" sqlType="VARCHAR" precision="125" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="FK_3AF346683DA5256D" table="categories" schema="" catalog="ecommercesite" columns="image_id"/>
+      <exported-key name="FK_BE2DDF8C3DA5256D" table="produits" schema="" catalog="ecommercesite" columns="image_id"/>
+    </table>
+    <table name="pages" schema="" catalog="ecommercesite" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="titre" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="contenu" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="false" jdbcType="-1"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="produits" schema="" catalog="ecommercesite" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="nom" sqlType="VARCHAR" precision="125" scale="0" nullable="false" jdbcType="12"/>
+      <column name="description" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="prix" sqlType="DOUBLE" precision="22" scale="0" nullable="false" jdbcType="8"/>
+      <column name="disponible" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="image_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="tva_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="categorie_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FK_BE2DDF8CBCF5E72D" columns="categorie_id" ref-table="categories" ref-schema="" ref-catalog="ecommercesite" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK_BE2DDF8C3DA5256D" columns="image_id" ref-table="media" ref-schema="" ref-catalog="ecommercesite" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK_BE2DDF8C4D79775F" columns="tva_id" ref-table="tva" ref-schema="" ref-catalog="ecommercesite" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="UNIQ_BE2DDF8C3DA5256D" unique="true" columns="image_id"/>
+      <index name="IDX_BE2DDF8C4D79775F" unique="false" columns="tva_id"/>
+      <index name="IDX_BE2DDF8CBCF5E72D" unique="false" columns="categorie_id"/>
+    </table>
+    <table name="tva" schema="" catalog="ecommercesite" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="multiplicate" sqlType="DOUBLE" precision="22" scale="0" nullable="false" jdbcType="8"/>
+      <column name="nom" sqlType="VARCHAR" precision="125" scale="0" nullable="false" jdbcType="12"/>
+      <column name="valeur" sqlType="DOUBLE" precision="22" scale="0" nullable="false" jdbcType="8"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="FK_BE2DDF8C4D79775F" table="produits" schema="" catalog="ecommercesite" columns="tva_id"/>
+    </table>
+    <table name="utilisateurs" schema="" catalog="ecommercesite" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="username" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="username_canonical" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="email_canonical" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="enabled" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="salt" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_login" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="locked" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="expired" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="expires_at" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="confirmation_token" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="password_requested_at" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="roles" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="false" jdbcType="-1" remarks="KERDMlR5cGU6YXJyYXkp"/>
+      <column name="credentials_expired" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="credentials_expire_at" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="FK_35D4282CFB88E14F" table="commandes" schema="" catalog="ecommercesite" columns="utilisateur_id"/>
+      <exported-key name="FK_95A7AD7AFB88E14F" table="utilisateursadresses" schema="" catalog="ecommercesite" columns="utilisateur_id"/>
+      <index name="UNIQ_497B315E92FC23A8" unique="true" columns="username_canonical"/>
+      <index name="UNIQ_497B315EA0D96FBF" unique="true" columns="email_canonical"/>
+    </table>
+    <table name="utilisateursadresses" schema="" catalog="ecommercesite" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="utilisateur_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="nom" sqlType="VARCHAR" precision="125" scale="0" nullable="false" jdbcType="12"/>
+      <column name="prenom" sqlType="VARCHAR" precision="125" scale="0" nullable="false" jdbcType="12"/>
+      <column name="telephone" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12"/>
+      <column name="adresse" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="codepostal" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="pays" sqlType="VARCHAR" precision="125" scale="0" nullable="false" jdbcType="12"/>
+      <column name="ville" sqlType="VARCHAR" precision="125" scale="0" nullable="false" jdbcType="12"/>
+      <column name="complement" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FK_95A7AD7AFB88E14F" columns="utilisateur_id" ref-table="utilisateurs" ref-schema="" ref-catalog="ecommercesite" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="IDX_95A7AD7AFB88E14F" unique="false" columns="utilisateur_id"/>
+    </table>
+  </data-source>
 </component>

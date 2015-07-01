@@ -1,0 +1,19 @@
+ecommerce_site_produits_homepage:
+    path:     /
+    defaults: { _controller: EcommerceSiteBundle:Produits:produits }
+
+ecommerce_site_prod_presentation:
+    path:     /produit/{id}
+    defaults: { _controller: EcommerceSiteBundle:Produits:presentation }
+
+ecommerce_site_prod_crea_form:
+    path:     /form
+    defaults: { _controller: EcommerceSiteBundle:Produits:creationFormulaire }
+
+ecommerce_site_categ_produits:
+    path:     /categorie/{categorie}
+    defaults: { _controller: EcommerceSiteBundle:Produits:categorie }
+
+ecommerce_site_recherche_produit:
+    path:     /recherche
+    defaults: { _controller: EcommerceSiteBundle:Produits:traitementRecherche }

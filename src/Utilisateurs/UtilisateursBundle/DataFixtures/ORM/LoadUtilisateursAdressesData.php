@@ -1,5 +1,5 @@
 <?php
-namespace EcommerceSite\EcommerceSiteBundle\DataFixtures\ORM;
+namespace Utilisateurs\UtilisateursBundle\DataFixtures\ORM;
 
 use Doctrine\Common\DataFixtures\AbstractFixture;
 use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
@@ -8,7 +8,7 @@ use EcommerceSite\EcommerceSiteBundle\Entity\UtilisateursAdresses;
 
 /**
  * Class LoadUtilisateursAdressesData
- * @package EcommerceSite\EcommerceSiteBundle\DataFixtures\ORM
+ * @package Utilisateurs\UtilisateursBundle\DataFixtures\ORM
  */
 class LoadUtilisateursAdressesData extends AbstractFixture implements OrderedFixtureInterface{
 

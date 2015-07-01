@@ -25,7 +25,7 @@ class LoadProduitsData extends AbstractFixture implements OrderedFixtureInterfac
         $produit1->setDisponible(true);
         $produit1->setImage($this->getReference('media1'));
         $produit1->setNom('Lexo3390');
-        $produit1->setPrix('15');
+        $produit1->setPrix('15.99');
         $produit1->setTva($this->getReference('tva1'));
         $manager->persist($produit1);
 
@@ -45,7 +45,7 @@ class LoadProduitsData extends AbstractFixture implements OrderedFixtureInterfac
         $produit3->setDisponible(true);
         $produit3->setImage($this->getReference('media3'));
         $produit3->setNom('Disque Dur Western Digital 1To');
-        $produit3->setPrix('80.0');
+        $produit3->setPrix('80.99');
         $produit3->setTva($this->getReference('tva1'));
         $manager->persist($produit3);
 
@@ -64,8 +64,8 @@ class LoadProduitsData extends AbstractFixture implements OrderedFixtureInterfac
         $produit5->setDescription('Imprimante jet d\'encres, 1000 pages par mois');
         $produit5->setDisponible(true);
         $produit5->setImage($this->getReference('media4'));
-        $produit5->setNom('Imrimante Canon MP520');
-        $produit5->setPrix('37.0');
+        $produit5->setNom('Imprimante Canon MP520');
+        $produit5->setPrix('37.99');
         $produit5->setTva($this->getReference('tva2'));
         $manager->persist($produit5);
 
@@ -78,6 +78,16 @@ class LoadProduitsData extends AbstractFixture implements OrderedFixtureInterfac
         $produit6->setPrix('18.99');
         $produit6->setTva($this->getReference('tva1'));
         $manager->persist($produit6);
+
+        $produit7 = new Produits();
+        $produit7->setCategorie($this->getReference('categorie5'));
+        $produit7->setDescription('Routeur à grande capacité');
+        $produit7->setDisponible(true);
+        $produit7->setImage($this->getReference('media6'));
+        $produit7->setNom('Routeur F18-500M');
+        $produit7->setPrix('48.99');
+        $produit7->setTva($this->getReference('tva1'));
+        $manager->persist($produit7);
 
         $manager->flush();
 

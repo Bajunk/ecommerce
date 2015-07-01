@@ -12,4 +12,31 @@ use Doctrine\ORM\EntityRepository;
  */
 class ProduitsRepository extends EntityRepository
 {
+    /**
+     * Fonction permettant de trouver les produits selon la catégorie
+     * @param $categorie
+     * @return resultats de la requete
+     */
+    public function byCategorie($categorie)
+    {
+        $queryBuilder = $this->createQueryBuilder('u')
+                             ->select('u')
+                             ->where('u.categorie = :categorie')
+                             ->andWhere('u.disponible = 1')      //boolean donc 1 = true donc disponible
+                             ->orderBy('u.id')
+                             ->setParameter('categorie', $categorie);
+        return $queryBuilder->getQuery()->getResult();
+    }
+
+
+    public function findByAttribute($attribut)
+    {
+        $queryBuilder = $this->createQueryBuilder('u');
+                $queryBuilder->select('u') //pas besoin de clause from car on est déjà dans les produits
+                             ->where($queryBuilder->expr()->like('u.nom', ':attribut'))
+                             ->andWhere('u.disponible = 1')
+                             ->orderBy('u.id')
+                             ->setParameter('attribut','%'.$attribut.'%');
+        return $queryBuilder->getQuery()->getResult();
+    }
 }

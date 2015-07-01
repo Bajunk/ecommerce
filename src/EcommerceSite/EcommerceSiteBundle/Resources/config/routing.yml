@@ -1,32 +1,7 @@
-ecommerce_site_panier_homepage:
-    path:     /panier
-    defaults: { _controller: EcommerceSiteBundle:Panier:panier }
+routingPanier:
+    resource: "@EcommerceSiteBundle/Resources/config/routing/routingPanier.yml"
+    prefix:   /panier
 
-ecommerce_site_panier_livraison:
-    path:     /panier/livraison
-    defaults: { _controller: EcommerceSiteBundle:Panier:livraison }
-
-ecommerce_site_panier_validation:
-    path:     /panier/validation
-    defaults: { _controller: EcommerceSiteBundle:Panier:validation }
-
-ecommerce_site_produits_homepage:
-    path:     /
-    defaults: { _controller: EcommerceSiteBundle:Produits:produits }
-
-ecommerce_site_prod_presentation:
-    path:     /prod
-    defaults: { _controller: EcommerceSiteBundle:Produits:presentation }
-
-ecommerce_site_prod_ajout:
-    path:     /ajout
-    defaults: { _controller: EcommerceSiteBundle:Produits:ajoutProd }
-
-ecommerce_site_prod_effacement:
-    path:     /efface
-    defaults: { _controller: EcommerceSiteBundle:Produits:effacerProd }
-
-ecommerce_site_prod_crea_form:
-    path:     /form
-    defaults: { _controller: EcommerceSiteBundle:Produits:creationFormulaire }
-
+routingProduits:
+    resource: "@EcommerceSiteBundle/Resources/config/routing/routingProduits.yml"
+    prefix:   /

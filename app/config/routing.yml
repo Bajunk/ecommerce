@@ -1,18 +1,16 @@
-#utilisateurs:
-#   resource: "@UtilisateursBundle/Resources/config/routing.yml"
-#   prefix:   /
+ecommerce:
+    resource: "@EcommerceBundle/Resources/config/routing.yml"
+    prefix:   /ecom
+
+utilisateurs:
+   resource: "@UtilisateursBundle/Resources/config/routing.yml"
+   prefix:   /
 
 pages:
     resource: "@PagesBundle/Resources/config/routing.yml"
-    prefix:   /page
+    prefix:   /
 
 ecommerce_site:
     resource: "@EcommerceSiteBundle/Resources/config/routing.yml"
     prefix:   /
 
-ecommerce:
-    resource: "@EcommerceBundle/Resources/config/routing.yml"
-    prefix:   /ecom
-
-fos_user:
-    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

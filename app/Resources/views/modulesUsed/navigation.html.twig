@@ -1,11 +1,6 @@
 <div class="well">
     <ul class="nav nav-list">
         <li class="nav-header">Nos produits</li>
-        <li class="active">
-            <a href="{{ path('ecommerce_homepage') }}">Légumes</a>
-        </li>
-        <li>
-            <a href="{{ path('ecommerce_homepage') }}">Fruits</a>
-        </li>
+        {{ render(controller('EcommerceSiteBundle:Categories:menu')) }}
     </ul>
 </div>

@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <meta name="keywords" content="{% block motsCles %}{% endblock %}" />
+        <meta name="description" content="{% block description %}{% endblock %}" />
         <title>{% block title %}Ecommerce{% endblock %}</title>
         {% block stylesheets %}
             <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}" />
@@ -23,12 +25,9 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="brand" href="{{path('ecommerce_site_produits_homepage')}}">EcommerceSite</a>
+                        <a class="brand" href="{{path('ecommerce_site_produits_homepage')}}">Accueil</a>
                         <div class="nav-collapse collapse">
-                            <form class="navbar-form form-search pull-right">
-                                <input id="Search" name="Search" type="text" class="input-medium search-query">
-                                <button type="submit" class="btn">Rechercher</button>
-                            </form>
+                            {{ render(controller('EcommerceSiteBundle:Produits:recherche')) }}
                         </div>
                     </div>
                 </div>
@@ -46,26 +45,25 @@
                     <div class="span4 offset1">
                         <h4>Informations</h4>
                         <ul class="nav nav-stacked">
-                            <li><a href="{{ path('pages_homepage', {id:1})}}">CGV</a>
-                            <li><a href="{{ path('pages_homepage', {id:2}) }}">Mentions légales</a>
+                            {{ render(controller('PagesBundle:Pages:menu')) }}
                         </ul>
                     </div>
 
                     <div class="span4">
                         <h4>Notre entrepôt</h4>
-                        <p><i class="icon-map-marker"></i>&nbsp;Tours 37 000 - 3 rue de la paix</p>
+                        <p><i class="icon-map-marker"></i>&nbsp;{{ adresse }}</p>
                     </div>
 
                     <div class="span2">
                         <h4>Nous contacter</h4>
-                        <p><i class="icon-phone"></i>&nbsp;Tel: 02 47 00 00 00</p>
-                        <p><i class="icon-print"></i>&nbsp;Fax: 02 47 00 00 00</p>
+                        <p><i class="icon-phone"></i>&nbsp;Tel: {{ telephone }}</p>
+                        <p><i class="icon-print"></i>&nbsp;Fax: {{ fax }}</p>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="span4 offset1">
-                        <p>&copy; Copyright 2015 - EcommerceSite</p>
+                        <p>&copy; Copyright {{ "now"|date('Y') }} - EcommerceSite</p>
                     </div>
                 </div>
             </div>

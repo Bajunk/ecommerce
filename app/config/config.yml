@@ -6,11 +6,11 @@ imports:
 # Put parameters here that don't need to change on each machine where the app is deployed
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
-    locale: fr
+    locale: fr_FR
 
 framework:
     #esi:             ~
-    translator:       ~ #{ fallbacks: en } #["%locale%"]
+    translator:       ~ #{ fallback: en , logging: false } #["%locale%"]
     secret:          "%secret%"
     router:
         resource: "%kernel.root_dir%/config/routing.yml"
@@ -35,6 +35,10 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    globals:
+        telephone: 02 47 00 00 00
+        fax:       02 47 00 00 00
+        adresse:   Tours 37 000 - 3 rue de la paix
 
 # Assetic Configuration
 assetic:

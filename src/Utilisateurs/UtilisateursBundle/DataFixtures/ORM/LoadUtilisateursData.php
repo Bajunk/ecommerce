@@ -1,5 +1,5 @@
 <?php
-namespace EcommerceSite\EcommerceSiteBundle\DataFixtures\ORM;
+namespace Utilisateurs\UtilisateursBundle\DataFixtures\ORM;
 
 use Doctrine\Common\DataFixtures\AbstractFixture;
 use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
@@ -10,7 +10,7 @@ use Utilisateurs\UtilisateursBundle\Entity\Utilisateurs;
 
 /**
  * Class LoadUtilisateursData
- * @package EcommerceSite\EcommerceSiteBundle\DataFixtures\ORM
+ * @package Utilisateurs\UtilisateursBundle\DataFixtures\ORM
  */
 class LoadUtilisateursData extends AbstractFixture implements OrderedFixtureInterface, ContainerAwareInterface{
 
