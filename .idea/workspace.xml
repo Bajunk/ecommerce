@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f9310c7-f402-4ba2-bf25-dad8ba08020b" name="Default" comment="Listener + livraison">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Listener/RedirectionListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/ModulesUsed/menupanier.html.twig" />
+    <list default="true" id="1f9310c7-f402-4ba2-bf25-dad8ba08020b" name="Default" comment="Fin des fixtures">
+      <change type="MOVED" beforePath="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\EcommerceSite\EcommerceSiteBundle\Twig\Extensions\MontantTaxeTvaExtension.php" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Twig/Extensions/MontantTvaExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/PanierController.php" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/PanierController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/ProduitsController.php" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/ProduitsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/ProduitsRepository.php" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/ProduitsRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/UtilisateursAdresses.php" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/UtilisateursAdresses.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/bootstrap.css" afterPath="$PROJECT_DIR$/web/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/livraison.html.twig" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/livraison.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/panier.html.twig" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/panier.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/presentation.html.twig" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/presentation.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/produits.html.twig" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/produits.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/ModulesUsed/recherche.html.twig" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/ModulesUsed/recherche.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing/routingPanier.yml" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing/routingPanier.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing/routingProduits.yml" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing/routingProduits.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/validation.html.twig" afterPath="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/validation.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a893aecc-054b-49ad-801a-813ca1998429" name="Failed commit: Default" comment="Commit file after failure" />
@@ -48,19 +37,19 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - ecommercesite@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="ecommercesite" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
     <PATH>
       <PATH_ELEMENT>
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - ecommerce@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="ecommerce" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
   </component>
@@ -69,42 +58,7 @@
     <favorites_list name="ecommerce" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="livraison.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/livraison.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.615385" vertical-offset="199" max-vertical-offset="1105">
-              <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
-              <folding>
-                <element signature="e#12#40#0#Twig" expanded="true" />
-                <element signature="e#1092#1131#0#Twig" expanded="true" />
-                <element signature="e#1994#2033#0#Twig" expanded="true" />
-                <element signature="e#2658#2689#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PanierController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/PanierController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56666666" vertical-offset="1360" max-vertical-offset="2669">
-              <caret line="92" column="42" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
-              <folding>
-                <element signature="e#64#130#0#PHP" expanded="true" />
-                <element signature="e#1381#1433#0#PHP" expanded="true" />
-                <element signature="e#2326#2359#1#PHP" expanded="true" />
-                <element signature="e#2415#2470#0#PHP" expanded="true" />
-                <element signature="e#3263#3296#1#PHP" expanded="true" />
-                <element signature="e#3497#3553#1#PHP" expanded="true" />
-                <element signature="e#4555#4587#1#PHP" expanded="true" />
-                <element signature="e#5124#5156#1#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -117,57 +71,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/Pages/PagesBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/request_content.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/reset_content.html.twig" />
+        <option value="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/ModulesUsed/utilisateurs.html.twig" />
+        <option value="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/ModulesUsed/utilisateursConnectes.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/changePassword_content.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/show_content.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/translations/security.fr.xlf" />
+        <option value="$PROJECT_DIR$/app/Resources/views/modulesUsed/utilisateur.html.twig" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/produits.html.twig" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/modulesUsed/navigation.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/modulesUsed/panier.html.twig" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/formulaireProduit.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Form/ProduitType.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/TvaRepository.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/MediaRepository.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/CategoriesRepository.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/UtilisateursAdressesRepository.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/CommandesRepository.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Tva.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Media.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Categories.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Produits.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Commandes.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/UtilisateursAdresses.php" />
+        <option value="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Entity/Utilisateurs.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadMediaData.php" />
         <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadTvaData.php" />
         <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadCategoriesData.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadProduitsData.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/formulaireproduit.html.twig" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/ProduitsController.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
         <option value="db-console:/692d3e2d/c786055a-cae6-403a-9074-921bf1c1a15a/" />
         <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadUtilisateursData.php" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/formulaireproduit.html.twig" />
-        <option value="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/DataFixtures/ORM/LoadUtilisateursData.php" />
-        <option value="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/DataFixtures/ORM/LoadUtilisateursAdressesData.php" />
-        <option value="$PROJECT_DIR$/src/Pages/PagesBundle/Repository/PagesRepository.php" />
-        <option value="$PROJECT_DIR$/src/Pages/PagesBundle/Entity/Pages.php" />
-        <option value="$PROJECT_DIR$/src/Pages/PagesBundle/DataFixtures/ORM/LoadPagesData.php" />
-        <option value="$PROJECT_DIR$/src/Pages/PagesBundle/Resources/views/Pages/ModulesUsed/menu.html.twig" />
-        <option value="$PROJECT_DIR$/src/Pages/PagesBundle/Controller/PagesController.php" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Categories/Layout/menucateg.html.twig" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/CategoriesController.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/modulesUsed/navigation.html.twig" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Form/RechercheType.php" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadProduitsData.php" />
-        <option value="db-console:/692d3e2d/157afac5-5fc2-4e7f-972c-d0a34e42ba5c/" />
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/src/Pages/PagesBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/formulaireproduits.html.twig" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Twig/Extensions/TvaExtension.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/layout/baseLayout.html.twig" />
-        <option value="$PROJECT_DIR$/src/Pages/PagesBundle/Resources/views/Pages/Layout/pages.html.twig" />
-        <option value="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/ModulesUsed/utilisateurs.html.twig" />
-        <option value="$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/ModulesUsed/utilisateursConnectes.html.twig" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/ProduitsRepository.php" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Twig/Extensions/montantTvaExtension.php" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Twig/Extensions/MontantTvaExtension.php" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/ModulesUsed/recherche.html.twig" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/ModulesUsed/menupanier.html.twig" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/panier.html.twig" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/produits.html.twig" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/presentation.html.twig" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/services.yml" />
-        <option value="$PROJECT_DIR$/web/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Listener/RedirectionListener.php" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/ProduitsController.php" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing/routingProduits.yml" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Form/UtilisateursAdressesType.php" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/UtilisateursAdresses.php" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing/routingPanier.yml" />
-        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/livraison.html.twig" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadUtilisateursAdressesData.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadCommandesData.php" />
+        <option value="db-console:/692d3e2d/a110b6b8-9856-43ab-9e94-8375c4e269d3/" />
         <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/PanierController.php" />
+        <option value="$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/validation.html.twig" />
       </list>
     </option>
   </component>
@@ -178,8 +132,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -232,9 +186,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -277,11 +229,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,6 +244,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utilisateurs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UtilisateursBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utilisateurs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UtilisateursBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataFixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ORM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,8 +366,42 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Produits" />
+              <option name="myItemId" value="ecommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EcommerceSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EcommerceSiteBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Panier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModulesUsed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,7 +435,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Produits" />
+              <option name="myItemId" value="Panier" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -446,126 +466,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EcommerceSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EcommerceSiteBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EcommerceSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EcommerceSiteBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EcommerceSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EcommerceSiteBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EcommerceSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EcommerceSiteBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Listener" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -617,6 +517,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EcommerceSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EcommerceSiteBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -635,81 +561,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FOSUserBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tharmo-test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Ecommerce/EcommerceBundle/Tests" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="database.main" />
+    <property name="options.lastSelected" value="reference.idesettings.emmet" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="dynamic.classpath" value="false" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="config&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/ecommerce/app/config/config.yml&#10;parameters&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/ecommerce/app/config/parameters.yml&#10;hello&#9;null&#9;null&#10;Emmet&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="hello&#9;null&#9;null&#10;Emmet&#9;null&#9;null" />
     <property name="LayoutCode.rearrangeEntriesTwig" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\EcommerceSite\EcommerceSiteBundle\Resources\views\Panier\ModulesUsed" />
-      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\EcommerceSite\EcommerceSiteBundle\Resources\config\routing" />
-      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\EcommerceSite\EcommerceSiteBundle\Resources\views\Categories\Layout" />
-      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\EcommerceSite\EcommerceSiteBundle\Resources\views\Categories" />
-      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\EcommerceSite\EcommerceSiteBundle\Controller" />
+      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\EcommerceSite\EcommerceSiteBundle\DataFixtures\ORM" />
+      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\EcommerceSite\EcommerceSiteBundle\Resources\views\Produits\Layout" />
+      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\app\Resources\translations" />
+      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\Utilisateurs\UtilisateursBundle\Resources\views\Utilisateurs\ModulesUsed" />
+      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\app\Resources\FOSUserBundle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\EcommerceSite\EcommerceSiteBundle\Resources\views\Produits\ModulesUsed" />
-      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\Pages\PagesBundle\Repository" />
-      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\Utilisateurs\UtilisateursBundle\DataFixtures\ORM" />
       <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\EcommerceSite\EcommerceSiteBundle\Repository" />
       <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\Utilisateurs\UtilisateursBundle\Resources\views\Utilisateurs" />
+      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\Utilisateurs\UtilisateursBundle\Repository" />
+      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\Pages\PagesBundle\Resources\views\Pages\Layout" />
+      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\ecommerce\src\EcommerceSite\EcommerceSiteBundle\Resources\views\Produits\Layout" />
     </key>
   </component>
   <component name="RestoreUpdateTree">
@@ -729,12 +613,31 @@
             <option name="myId" value="UPDATED" />
             <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/dataSources.ids</PATH>
             <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/dataSources.xml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/frameworkRootSettings.xml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/php.xml</PATH>
             <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/composer.json</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/composer.lock</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadUtilisateursData.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Resources/views/layout/baseLayout.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Resources/views/modulesUsed/navigation.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/config/config.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/config/routing.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/PanierController.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/ProduitsController.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadProduitsData.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/UtilisateursAdresses.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/ProduitsRepository.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/services.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/livraison.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/panier.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/formulaireproduits.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/presentation.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/produits.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Pages/PagesBundle/Controller/PagesController.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Pages/PagesBundle/Resources/config/routing.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Pages/PagesBundle/Resources/views/Pages/Layout/pages.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/config/routing.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/ModulesUsed/utilisateurs.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/ModulesUsed/utilisateursConnectes.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/web/css/bootstrap.css</PATH>
           </FILE-GROUP>
           <FILE-GROUP>
             <option name="myUpdateName" value="Created" />
@@ -742,8 +645,23 @@
             <option name="mySupportsDeletion" value="false" />
             <option name="myCanBeAbsent" value="false" />
             <option name="myId" value="CREATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadCommandesData.php</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadUtilisateursAdressesData.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/CategoriesController.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Form/RechercheType.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Form/UtilisateursAdressesType.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Listener/RedirectionListener.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing/routingPanier.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing/routingProduits.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Categories/Layout/menucateg.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/ModulesUsed/menupanier.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/ModulesUsed/recherche.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Twig/Extensions/MontantTaxeTvaExtension.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Twig/Extensions/TvaExtension.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Pages/PagesBundle/DataFixtures/ORM/LoadPagesData.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Pages/PagesBundle/Entity/Pages.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Pages/PagesBundle/Repository/PagesRepository.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Pages/PagesBundle/Resources/views/Pages/ModulesUsed/menu.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/DataFixtures/ORM/LoadUtilisateursAdressesData.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/DataFixtures/ORM/LoadUtilisateursData.php</PATH>
           </FILE-GROUP>
           <FILE-GROUP>
             <option name="myUpdateName" value="Deleted" />
@@ -751,6 +669,9 @@
             <option name="mySupportsDeletion" value="false" />
             <option name="myCanBeAbsent" value="true" />
             <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Resources/views/modulesUsed/utilisateur.html.twig</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadUtilisateursAdressesData.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadUtilisateursData.php</PATH>
           </FILE-GROUP>
           <FILE-GROUP>
             <option name="myUpdateName" value="Restored" />
@@ -833,12 +754,18 @@
       </UpdatedFiles>
     </UpdateInfo>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.DefaultControllerTest">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
+      <TestRunner directory="$PROJECT_DIR$/src/Ecommerce/EcommerceBundle/Tests" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
@@ -847,11 +774,11 @@
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -863,10 +790,15 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="false" name="DefaultControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner class="Ecommerce\EcommerceBundle\Tests\Controller\DefaultControllerTest" directory="$PROJECT_DIR$/src/Ecommerce/EcommerceBundle/Tests" file="$PROJECT_DIR$/src/Ecommerce/EcommerceBundle/Tests/Controller/DefaultControllerTest.php" scope="Class" />
+      <RunnerSettings RunnerId="PhpUnitDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpUnitDebugRunner" />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.DefaultControllerTest" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -915,19 +847,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435601171694</updated>
     </task>
-    <task id="LOCAL-00007" summary="Commit file after failure">
-      <created>1435601715062</created>
+    <task id="LOCAL-00007" summary="Fin des fixtures">
+      <created>1435618857810</created>
       <option name="number" value="00007" />
       <option name="project" value="LOCAL" />
-      <updated>1435601715062</updated>
+      <updated>1435618857810</updated>
     </task>
-    <task id="LOCAL-00008" summary="Lots of changes">
-      <created>1435762575296</created>
-      <option name="number" value="00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1435762575296</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -951,31 +877,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5325733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41530946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27135134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43783784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21903323" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16204691" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22280967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18443497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18277946" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32736155" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32736155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50651467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41468683" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5048649" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.10271903" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="618" y="500" width="467" height="210" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -992,8 +918,8 @@
       <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32736155" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18277946" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32736155" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32736155" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1001,9 +927,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21978852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1031,421 +957,305 @@
     <MESSAGE value="Montage structure BDD&#10;Creation des entités" />
     <MESSAGE value="Rectification" />
     <MESSAGE value="Commit file after failure" />
-    <MESSAGE value="Lots of changes" />
-    <MESSAGE value="Listener + livraison" />
-    <option name="LAST_COMMIT_MESSAGE" value="Listener + livraison" />
+    <MESSAGE value="Fin des fixtures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin des fixtures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/modulesUsed/panier.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/console">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/SymfonyRequirements.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.967213" vertical-offset="3825" max-vertical-offset="12869">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/check.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4768684" vertical-offset="1954" max-vertical-offset="2516">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3469388" vertical-offset="0" max-vertical-offset="588">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6360544" vertical-offset="0" max-vertical-offset="1598">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadTvaData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.18149467" vertical-offset="102" max-vertical-offset="884">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadProduitsData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24733096" vertical-offset="932" max-vertical-offset="1819">
-          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Twig/Extensions/TvaExtension.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6672598" vertical-offset="101" max-vertical-offset="663">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/ModulesUsed/recherche.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.090747334" vertical-offset="0" max-vertical-offset="562">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding>
-            <element signature="e#23#55#0#Twig" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/tables.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="3493" max-vertical-offset="4250">
-          <caret line="217" column="16" selection-start-line="217" selection-start-column="16" selection-end-line="217" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38956523" vertical-offset="7375" max-vertical-offset="21658">
-          <caret line="447" column="15" selection-start-line="447" selection-start-column="14" selection-end-line="447" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/ModulesUsed/utilisateurs.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3024911" vertical-offset="0" max-vertical-offset="562">
-          <caret line="10" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/ModulesUsed/utilisateursConnectes.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06049822" vertical-offset="0" max-vertical-offset="562">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          <folding />
+        <state vertical-scroll-proportion="0.33156028" vertical-offset="0" max-vertical-offset="564">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/presentation.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3096539" vertical-offset="0" max-vertical-offset="1071">
-          <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-            <element signature="e#502#572#0#Twig" expanded="true" />
-            <element signature="e#636#697#0#Twig" expanded="true" />
-            <element signature="e#1394#1423#0#Twig" expanded="true" />
-            <element signature="e#2048#2078#0#Twig" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/ProduitsRepository.php">
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4252669" vertical-offset="560" max-vertical-offset="1122">
-          <caret line="47" column="75" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
-          <folding />
+        <state vertical-scroll-proportion="0.86206895" vertical-offset="239" max-vertical-offset="969">
+          <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/ModulesUsed/menupanier.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15124555" vertical-offset="0" max-vertical-offset="562">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="30" />
-          <folding />
+        <state vertical-scroll-proportion="0.09042553" vertical-offset="0" max-vertical-offset="564">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/panier.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.061930783" vertical-offset="204" max-vertical-offset="1768">
-          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-          <folding />
+        <state vertical-scroll-proportion="0.5245009" vertical-offset="0" max-vertical-offset="561">
+          <caret line="17" column="92" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8174905" vertical-offset="66635" max-vertical-offset="104958">
-          <caret line="3945" column="6" selection-start-line="3945" selection-start-column="1" selection-end-line="3945" selection-end-column="6" />
-          <folding />
+        <state vertical-scroll-proportion="0.3457627" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/layout/baseLayout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5729537" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21174377" vertical-offset="0" max-vertical-offset="562">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/validation.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+        <state vertical-scroll-proportion="-0.14539006" vertical-offset="82" max-vertical-offset="1462">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/services.yml">
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/TvaRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4047619" vertical-offset="0" max-vertical-offset="588">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
+        <state vertical-scroll-proportion="0.060283687" vertical-offset="0" max-vertical-offset="564">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/modulesUsed/navigation.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/MediaRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="204">
-          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-          <folding />
+        <state vertical-scroll-proportion="0.060283687" vertical-offset="0" max-vertical-offset="564">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/CategoriesController.php">
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/CategoriesRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="493">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
+        <state vertical-scroll-proportion="0.060283687" vertical-offset="0" max-vertical-offset="564">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Categories/Layout/menucateg.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/ProduitsRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03024911" vertical-offset="0" max-vertical-offset="562">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/produits.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/UtilisateursAdressesRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18149467" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-            <element signature="e#385#455#0#Twig" expanded="true" />
-            <element signature="e#519#580#0#Twig" expanded="true" />
-            <element signature="e#1378#1410#0#Twig" expanded="true" />
-            <element signature="e#1756#1785#0#Twig" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.060283687" vertical-offset="0" max-vertical-offset="564">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing/routingProduits.yml">
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Repository/CommandesRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4047619" vertical-offset="0" max-vertical-offset="588">
-          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Form/RechercheType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39323843" vertical-offset="0" max-vertical-offset="562">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding />
+        <state vertical-scroll-proportion="0.3617021" vertical-offset="0" max-vertical-offset="564">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Form/ProduitType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45373666" vertical-offset="0" max-vertical-offset="714">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.74047184" vertical-offset="0" max-vertical-offset="731">
+          <caret line="24" column="120" selection-start-line="24" selection-start-column="120" selection-end-line="24" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Media.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2712766" vertical-offset="0" max-vertical-offset="1700">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/ProduitsController.php">
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/UtilisateursAdresses.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3291816" vertical-offset="1121" max-vertical-offset="1887">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="e#64#120#0#PHP" expanded="true" />
-            <element signature="e#1177#1233#0#PHP" expanded="true" />
-            <element signature="e#1954#2014#0#PHP" expanded="true" />
-            <element signature="e#2316#2766#0#PHP" expanded="false" />
-            <element signature="e#2652#2718#0#PHP" expanded="true" />
-            <element signature="e#2963#3020#0#PHP" expanded="true" />
-            <element signature="e#4179#4235#0#PHP" expanded="true" />
-            <element signature="e#4395#5238#0#PHP" expanded="false" />
-            <element signature="e#5244#5607#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Listener/RedirectionListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6975089" vertical-offset="135" max-vertical-offset="765">
-          <caret line="31" column="97" selection-start-line="31" selection-start-column="97" selection-end-line="31" selection-end-column="97" />
-          <folding>
-            <element signature="e#62#123#0#PHP" expanded="true" />
-            <element signature="e#1182#1214#1#PHP" expanded="true" />
-            <element signature="e#1606#1631#1#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Token/Storage/TokenStorage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47153026" vertical-offset="126" max-vertical-offset="714">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state vertical-scroll-proportion="-5.7659574" vertical-offset="4629" max-vertical-offset="5253">
+          <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Entity/Utilisateurs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7117438" vertical-offset="365" max-vertical-offset="2210">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="23" />
-          <folding />
+        <state vertical-scroll-proportion="0.8351064" vertical-offset="328" max-vertical-offset="2244">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/692d3e2d/157afac5-5fc2-4e7f-972c-d0a34e42ba5c/ecommercesite..utilisateurs">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Form/UtilisateursAdressesType.php">
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36476868" vertical-offset="169" max-vertical-offset="918">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="e#58#98#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.66548043" vertical-offset="0" max-vertical-offset="799">
+          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Tva.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0889679" vertical-offset="612" max-vertical-offset="2210">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.25444838" vertical-offset="296" max-vertical-offset="2210">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Produits.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.81672597" vertical-offset="459" max-vertical-offset="4216">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.36298934" vertical-offset="0" max-vertical-offset="4216">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Media.php">
+    <entry file="file://$PROJECT_DIR$/src/Utilisateurs/UtilisateursBundle/Resources/views/Utilisateurs/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6352313" vertical-offset="357" max-vertical-offset="1700">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="260">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Commandes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9982206" vertical-offset="561" max-vertical-offset="3196">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Categories.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="5.6666665" vertical-offset="0" max-vertical-offset="1683">
+          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/692d3e2d/157afac5-5fc2-4e7f-972c-d0a34e42ba5c/ecommercesite..utilisateursadresses">
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34615386" vertical-offset="386" max-vertical-offset="646">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Produits/Layout/formulaireproduits.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="260">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/ProduitsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="874" max-vertical-offset="1326">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6967213" vertical-offset="153" max-vertical-offset="1224">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13934426" vertical-offset="0" max-vertical-offset="595">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/EcommerceSiteBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Tests/Controller/DefaultControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ecommerce/EcommerceBundle/EcommerceBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ecommerce/EcommerceBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.078071184" vertical-offset="0" max-vertical-offset="871">
+          <caret line="4" column="64" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ecommerce/EcommerceBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19517796" vertical-offset="0" max-vertical-offset="871">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ecommerce/EcommerceBundle/Tests/Controller/DefaultControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33180252" vertical-offset="0" max-vertical-offset="871">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/ide-phpunit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20091848" vertical-offset="641" max-vertical-offset="8874">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.7988305" vertical-offset="370" max-vertical-offset="9962">
+          <caret line="422" column="20" selection-start-line="422" selection-start-column="20" selection-end-line="422" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadMediaData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5748218" vertical-offset="654" max-vertical-offset="1496">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadCategoriesData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6163896" vertical-offset="314" max-vertical-offset="1156">
+          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadTvaData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11710677" vertical-offset="0" max-vertical-offset="884">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadProduitsData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6004592" vertical-offset="803" max-vertical-offset="1700">
+          <caret line="78" column="53" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/692d3e2d/a110b6b8-9856-43ab-9e94-8375c4e269d3/ecommerce..produits">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1454,59 +1264,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/UtilisateursAdresses.php">
+    <entry file="dbDummy://dbtable:/692d3e2d/a110b6b8-9856-43ab-9e94-8375c4e269d3/ecommerce..utilisateurs">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/692d3e2d/a110b6b8-9856-43ab-9e94-8375c4e269d3/ecommerce..utilisateursadresses">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Entity/Commandes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.992883" vertical-offset="12" max-vertical-offset="5253">
-          <caret line="298" column="34" selection-start-line="298" selection-start-column="20" selection-end-line="298" selection-end-column="34" />
+        <state vertical-scroll-proportion="2.3123515" vertical-offset="467" max-vertical-offset="3196">
+          <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/config/routing/routingPanier.yml">
+    <entry file="dbDummy://db-console:/692d3e2d/a110b6b8-9856-43ab-9e94-8375c4e269d3/">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3180272" vertical-offset="0" max-vertical-offset="588">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.1275" vertical-offset="0" max-vertical-offset="400">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/DataFixtures/ORM/LoadCommandesData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4730195" vertical-offset="149" max-vertical-offset="1020">
+          <caret line="33" column="72" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="492">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/validation.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9219288" vertical-offset="812" max-vertical-offset="1921">
+          <caret line="95" column="97" selection-start-line="95" selection-start-column="97" selection-end-line="95" selection-end-column="97" />
+          <folding>
+            <element signature="e#12#40#0#Twig" expanded="true" />
+            <element signature="e#359#392#0#Twig" expanded="true" />
+            <element signature="e#491#561#0#Twig" expanded="true" />
+            <element signature="e#625#686#0#Twig" expanded="true" />
+            <element signature="e#1778#1807#0#Twig" expanded="true" />
+            <element signature="e#4253#4284#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/panier.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1768">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="14" />
+          <folding>
+            <element signature="e#359#392#0#Twig" expanded="false" />
+            <element signature="e#491#561#0#Twig" expanded="false" />
+            <element signature="e#625#686#0#Twig" expanded="false" />
+            <element signature="e#1844#1873#0#Twig" expanded="false" />
+            <element signature="e#2617#2648#0#Twig" expanded="false" />
+            <element signature="e#4184#4215#0#Twig" expanded="false" />
+            <element signature="e#4369#4401#0#Twig" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Resources/views/Panier/Layout/livraison.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.615385" vertical-offset="199" max-vertical-offset="1105">
-          <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.3764569" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="75" />
           <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-            <element signature="e#1092#1131#0#Twig" expanded="true" />
-            <element signature="e#1994#2033#0#Twig" expanded="true" />
-            <element signature="e#2658#2689#0#Twig" expanded="true" />
+            <element signature="e#451#483#0#Twig" expanded="false" />
+            <element signature="e#1092#1131#0#Twig" expanded="false" />
+            <element signature="e#1994#2033#0#Twig" expanded="false" />
+            <element signature="e#2658#2689#0#Twig" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Twig/Extensions/MontantTvaExtension.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5583333" vertical-offset="0" max-vertical-offset="663">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EcommerceSite/EcommerceSiteBundle/Controller/PanierController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56666666" vertical-offset="1360" max-vertical-offset="2669">
-          <caret line="92" column="42" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.6486797" vertical-offset="1526" max-vertical-offset="3179">
+          <caret line="127" column="8" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
           <folding>
-            <element signature="e#64#130#0#PHP" expanded="true" />
-            <element signature="e#1381#1433#0#PHP" expanded="true" />
-            <element signature="e#2326#2359#1#PHP" expanded="true" />
-            <element signature="e#2415#2470#0#PHP" expanded="true" />
-            <element signature="e#3263#3296#1#PHP" expanded="true" />
-            <element signature="e#3497#3553#1#PHP" expanded="true" />
-            <element signature="e#4555#4587#1#PHP" expanded="true" />
-            <element signature="e#5124#5156#1#PHP" expanded="true" />
+            <element signature="e#3965#3999#1#PHP" expanded="true" />
+            <element signature="e#4093#4127#1#PHP" expanded="true" />
+            <element signature="e#4870#4926#0#PHP" expanded="true" />
+            <element signature="e#6117#6149#1#PHP" expanded="true" />
+            <element signature="e#6686#6718#1#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

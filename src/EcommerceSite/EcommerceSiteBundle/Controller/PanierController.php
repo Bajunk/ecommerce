@@ -91,11 +91,45 @@ class PanierController extends Controller
     private function setLivraisonOnSession(Request $request)
     {
         $session = $request->getSession();
+        if(!$session->has('adresse')){
+            $session->set('adresse',array());
+        }
+        $adresse = $session->get('adresse');
+
+        //on récupère les valeurs du formulaire (options radio)
+        $livraison = $request->request->get('livraison');
+        $facturation = $request->request->get('facturation');
+        if($livraison != null && $facturation != null)
+        {
+            $adresse['livraison'] = $livraison;
+            $adresse['facturation'] = $facturation;
+        }
+        else{
+            $this->redirectToRoute('ecommerce_site_panier_validation');
+        }
+        $session->set('adresse',$adresse);
+        return $this->redirectToRoute('ecommerce_site_panier_validation');
     }
 
-    public function validationAction()
+    public function validationAction(Request $request)
     {
-        return $this->render('EcommerceSiteBundle:Panier/Layout:validation.html.twig');
+        if($request->getMethod() == 'POST') {
+            $this->setLivraisonOnSession($request);
+        }
+        $em = $this->getDoctrine()->getManager();
+        $session = $request->getSession();
+
+        $panier = $session->get('panier');
+        $adresse = $session->get('adresse');
+        $produits = $em->getRepository('EcommerceSiteBundle:Produits')->findArray(array_keys($session->get('panier')));
+        $livraison = $em->getRepository('EcommerceSiteBundle:UtilisateursAdresses')->find($adresse['livraison']);
+        $facturation = $em->getRepository('EcommerceSiteBundle:UtilisateursAdresses')->find($adresse['facturation']);
+
+        return $this->render('EcommerceSiteBundle:Panier/Layout:validation.html.twig',
+               array('produits' => $produits,
+                     'livraison' => $livraison,
+                     'facturation' => $facturation,
+                     'panier' => $panier));
     }
 
     /**

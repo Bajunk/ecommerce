@@ -45,9 +45,9 @@
       <column name="prix" sqlType="DOUBLE" precision="22" scale="0" nullable="false" jdbcType="8"/>
       <column name="disponible" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
       <primary-key name="PRIMARY" columns="id"/>
-      <foreign-key name="FK_BE2DDF8CBCF5E72D" columns="categorie_id" ref-table="categories" ref-schema="" ref-catalog="ecommerce" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <foreign-key name="FK_BE2DDF8C3DA5256D" columns="image_id" ref-table="media" ref-schema="" ref-catalog="ecommerce" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <foreign-key name="FK_BE2DDF8C4D79775F" columns="tva_id" ref-table="tva" ref-schema="" ref-catalog="ecommerce" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK_BE2DDF8CBCF5E72D" columns="categorie_id" ref-table="categories" ref-schema="" ref-catalog="ecommerce" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <index name="UNIQ_BE2DDF8C3DA5256D" unique="true" columns="image_id"/>
       <index name="IDX_BE2DDF8C4D79775F" unique="false" columns="tva_id"/>
       <index name="IDX_BE2DDF8CBCF5E72D" unique="false" columns="categorie_id"/>
