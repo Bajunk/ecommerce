@@ -6,6 +6,10 @@ ecommerce_site_panier_livraison:
     path:     /livraison
     defaults: { _controller: EcommerceSiteBundle:Panier:livraison }
 
+ecommerce_site_panier_livraison_effacer:
+    path:     /livraison/adresse/suppression/{id}
+    defaults: { _controller: EcommerceSiteBundle:Panier:effacerAdresse }
+
 ecommerce_site_panier_validation:
     path:     /validation
     defaults: { _controller: EcommerceSiteBundle:Panier:validation }

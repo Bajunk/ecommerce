@@ -28,7 +28,11 @@ class ProduitsRepository extends EntityRepository
         return $queryBuilder->getQuery()->getResult();
     }
 
-
+    /**
+     * Fonction permettant de trouver tous les produits à partir de la barre de recherche
+     * @param $attribut
+     * @return array
+     */
     public function findByAttribute($attribut)
     {
         $queryBuilder = $this->createQueryBuilder('u');
@@ -38,5 +42,19 @@ class ProduitsRepository extends EntityRepository
                              ->orderBy('u.id')
                              ->setParameter('attribut','%'.$attribut.'%');
         return $queryBuilder->getQuery()->getResult();
+    }
+
+    /**
+     * Fonction renvoyant les produits dont les $id étaient dans le $ableau
+     * @param $tableau
+     * @return array
+     */
+    public function findArray($tableau)
+    {
+        $qb = $this->createQueryBuilder('u')
+                   ->select('u')
+                   ->where('u.id IN (:tableau)')
+                   ->setParameter('tableau',$tableau);
+        return $qb->getQuery()->getResult();
     }
 }

@@ -12,7 +12,7 @@ ecommerce_site_prod_crea_form:
 
 ecommerce_site_categ_produits:
     path:     /categorie/{categorie}
-    defaults: { _controller: EcommerceSiteBundle:Produits:categorie }
+    defaults: { _controller: EcommerceSiteBundle:Produits:produits }
 
 ecommerce_site_recherche_produit:
     path:     /recherche

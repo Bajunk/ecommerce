@@ -5,6 +5,7 @@
         <div class="row">
             <div class="span3">
                 {% include ':modulesUsed:navigation.html.twig' %}
+                {{ render(controller('EcommerceSiteBundle:Panier:menu')) }}
                 {% if is_granted('IS_AUTHENTICATED_FULLY') %}
                     {% include '@Utilisateurs/Utilisateurs/ModulesUsed/utilisateursConnectes.html.twig' %}
                 {% else %}
@@ -25,13 +26,15 @@
 
                                         <p>{{ produit.prix|tva(produit.tva.multiplicate) }} €</p>
                                         <a class="btn btn-primary"
-                                           href="{{ path('ecommerce_site_prod_presentation', {id: produit.id}) }}">
+                                           href="{{ path('ecommerce_site_prod_presentation', {'id': produit.id}) }}">
                                             Plus d'infos
                                         </a>
-                                        <a class="btn btn-success"
-                                           href="{{ path('ecommerce_site_panier_ajouter', { id: produit.id}) }}">
-                                            Ajouter au panier
-                                        </a>
+                                        {% if panier[produit.id] is not defined %}
+                                            <a class="btn btn-success"
+                                               href="{{ path('ecommerce_site_panier_ajouter', {'id': produit.id}) }}">
+                                                Ajouter au panier
+                                            </a>
+                                        {% endif %}
                                     </div>
                                 </div>
                             </li>

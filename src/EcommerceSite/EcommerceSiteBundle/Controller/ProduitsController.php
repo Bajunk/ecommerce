@@ -2,13 +2,12 @@
 
 namespace EcommerceSite\EcommerceSiteBundle\Controller;
 
-use EcommerceSite\EcommerceSiteBundle\Entity\Produits;
+use EcommerceSite\EcommerceSiteBundle\Entity\Categories;
 use EcommerceSite\EcommerceSiteBundle\Form\RechercheType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use EcommerceSite\EcommerceSiteBundle\Form\ProduitType;
-use Symfony\Component\Validator\Constraints\IsNull;
 
 /**
  * Class ProduitsController
@@ -19,25 +18,43 @@ class ProduitsController extends Controller
     /**
      * Page contenant tous les produits
      */
-    public function produitsAction()
+    public function produitsAction(Request $request, Categories $categorie = null)
     {
+        $session = $request->getSession();
         $em = $this->getDoctrine()->getManager();
-        $produits = $em->getRepository('EcommerceSiteBundle:Produits')->findBy(array('disponible' => true));
-        return $this->render('EcommerceSiteBundle:Produits/Layout:produits.html.twig', array('produits' => $produits));
+        if($categorie != null){
+            $produits = $em->getRepository('EcommerceSiteBundle:Produits')->byCategorie($categorie);
+        }
+        else $produits = $em->getRepository('EcommerceSiteBundle:Produits')->findBy(array('disponible' => true));
+
+        if($session->has('panier')) {
+            $panier = $session->get('panier');
+        }
+        else $panier = false;
+
+        return $this->render('EcommerceSiteBundle:Produits/Layout:produits.html.twig', array('produits' => $produits,
+                                                                                             'panier' => $panier));
     }
 
     /**
      * Page de présentation d'un produit
      */
-    public function presentationAction($id)
+    public function presentationAction(Request $request, $id)
     {
+        $session = $request->getSession();
         $em = $this->getDoctrine()->getManager();
         $produit = $em->getRepository('EcommerceSiteBundle:Produits')->find($id);
 
         if(!$produit){
             throw $this->createNotFoundException('La page n\'existe pas ');
         }
-        return $this->render('EcommerceSiteBundle:Produits/Layout:presentation.html.twig', array('produit' => $produit));
+        if($session->has('panier')) {
+            $panier = $session->get('panier');
+        }
+        else $panier = false;
+
+        return $this->render('EcommerceSiteBundle:Produits/Layout:presentation.html.twig', array('produit' => $produit,
+                                                                                                 'panier' => $panier ));
     }
 
     /**
@@ -59,24 +76,6 @@ class ProduitsController extends Controller
     }
 
     /**
-     * On récupère les produits appartenant à une certaine catégories
-     * @param $categorie
-     * @return La vue des produits appartenant à la catégorie passée en paramètre
-     */
-    public function categorieAction($categorie)
-    {
-        $em = $this->getDoctrine()->getManager();
-        $produits = $em->getRepository('EcommerceSiteBundle:Produits')->byCategorie($categorie);
-
-        //vérifier si la catégorie par laquelle on fait le trie existe bien
-        $categorieFound = $em->getRepository('EcommerceSiteBundle:Categories')->find($categorie);
-        if(!$categorieFound){
-            throw $this->createNotFoundException('La page n\'existe pas ');
-        }
-        return $this->render('EcommerceSiteBundle:Produits/Layout:produits.html.twig', array('produits' => $produits));
-    }
-
-    /**
      * On crée une vue du formulaire de recherche
      */
     public function rechercheAction()
@@ -92,6 +91,11 @@ class ProduitsController extends Controller
      */
     public function traitementRechercheAction(Request $request)
     {
+        //---- Ici on ne veut pas que le client puisse rajouter des produits qu'il a déjà dans son panier --
+         $session = $request->getSession();
+         if($session->has('panier')) $panier = $session->get('panier');
+         else $panier = false;
+        //---------------------------------------------------------------------------------------------------
         $form = $this->createForm(new RechercheType());
 
         if($request->getMethod() == 'POST')
@@ -104,8 +108,29 @@ class ProduitsController extends Controller
         }
         else throw $this->createNotFoundException('La page n\'existe pas');
 
-        return $this->render('EcommerceSiteBundle:Produits/Layout:produits.html.twig', array('produits' => $produits));
+        return $this->render('EcommerceSiteBundle:Produits/Layout:produits.html.twig', array('produits' => $produits,
+                                                                                             'panier' => $panier));
     }
+
+    /**
+     * Ancien code (problème de doublon avec la fonction produitsAction)
+     * On récupère les produits appartenant à une certaine catégorie
+     * @param $categorie
+     * @return La vue des produits appartenant à la catégorie passée en paramètre
+
+    public function categorieAction($categorie)
+    {
+    $em = $this->getDoctrine()->getManager();
+    $produits = $em->getRepository('EcommerceSiteBundle:Produits')->byCategorie($categorie);
+
+    //vérifier si la catégorie par laquelle on fait le trie existe bien
+    $categorieFound = $em->getRepository('EcommerceSiteBundle:Categories')->find($categorie);
+    if(!$categorieFound){
+    throw $this->createNotFoundException('La page n\'existe pas ');
+    }
+    return $this->render('EcommerceSiteBundle:Produits/Layout:produits.html.twig', array('produits' => $produits));
+    }
+     */
 
     /**
      * Vider la table
@@ -123,4 +148,3 @@ class ProduitsController extends Controller
     return new Response('<html><body> Table vidée</body></html>');
     }*/
 }
-
