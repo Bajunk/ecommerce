@@ -22,7 +22,8 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "friendsofsymfony/user-bundle": "~2.0@dev",
         "willdurand/propel-typehintable-behavior": "~1.0",
-        "doctrine/doctrine-fixtures-bundle": "dev-master"
+        "doctrine/doctrine-fixtures-bundle": "dev-master",
+        "knplabs/knp-paginator-bundle": "^2.4"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",

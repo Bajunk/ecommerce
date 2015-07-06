@@ -122,7 +122,7 @@
       <column name="valider" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
       <column name="date" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
       <column name="reference" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="produits" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="false" jdbcType="-1" remarks="KERDMlR5cGU6YXJyYXkp"/>
+      <column name="commande" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="false" jdbcType="-1" remarks="KERDMlR5cGU6YXJyYXkp"/>
       <primary-key name="PRIMARY" columns="id"/>
       <foreign-key name="FK_35D4282CFB88E14F" columns="utilisateur_id" ref-table="utilisateurs" ref-schema="" ref-catalog="ecommercesite" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <index name="IDX_35D4282CFB88E14F" unique="false" columns="utilisateur_id"/>
@@ -151,9 +151,9 @@
       <column name="tva_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="categorie_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <primary-key name="PRIMARY" columns="id"/>
-      <foreign-key name="FK_BE2DDF8CBCF5E72D" columns="categorie_id" ref-table="categories" ref-schema="" ref-catalog="ecommercesite" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <foreign-key name="FK_BE2DDF8C3DA5256D" columns="image_id" ref-table="media" ref-schema="" ref-catalog="ecommercesite" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <foreign-key name="FK_BE2DDF8C4D79775F" columns="tva_id" ref-table="tva" ref-schema="" ref-catalog="ecommercesite" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK_BE2DDF8CBCF5E72D" columns="categorie_id" ref-table="categories" ref-schema="" ref-catalog="ecommercesite" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <index name="UNIQ_BE2DDF8C3DA5256D" unique="true" columns="image_id"/>
       <index name="IDX_BE2DDF8C4D79775F" unique="false" columns="tva_id"/>
       <index name="IDX_BE2DDF8CBCF5E72D" unique="false" columns="categorie_id"/>
@@ -200,7 +200,7 @@
       <column name="codepostal" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
       <column name="pays" sqlType="VARCHAR" precision="125" scale="0" nullable="false" jdbcType="12"/>
       <column name="ville" sqlType="VARCHAR" precision="125" scale="0" nullable="false" jdbcType="12"/>
-      <column name="complement" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="complement" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="id"/>
       <foreign-key name="FK_95A7AD7AFB88E14F" columns="utilisateur_id" ref-table="utilisateurs" ref-schema="" ref-catalog="ecommercesite" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <index name="IDX_95A7AD7AFB88E14F" unique="false" columns="utilisateur_id"/>

@@ -1,6 +1,10 @@
-#utilisateurs_homepage:
-#    path:     /index
-#    defaults: { _controller: UtilisateursBundle:Utilisateurs:index }
+utilisateurs_factures:
+    path:     /profile/factures
+    defaults: { _controller: UtilisateursBundle:Utilisateurs:factures }
+
+utilisateurs_facturesPDF:
+    path:     /profile/facture/{id}
+    defaults: { _controller: UtilisateursBundle:Utilisateurs:facturePDF }
 
 #fos_user:
 #    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

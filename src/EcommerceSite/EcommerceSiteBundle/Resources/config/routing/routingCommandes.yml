@@ -1,0 +1,5 @@
+ecommerce_site_commande_validation:
+    path:     /api/banque/{id}
+    defaults: { _controller: EcommerceSiteBundle:Commandes:validationCommande }
+
+

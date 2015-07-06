@@ -17,3 +17,7 @@ services:
         arguments: [@service_container, @session]
         tags:
           - { name: kernel.event_listener, event: kernel.request, method: onKernelRequest }
+
+    setNewReference:
+        class: EcommerceSite\EcommerceSiteBundle\Services\GetLatestReference
+        arguments: [@security.token_storage, @doctrine.orm.entity_manager]
