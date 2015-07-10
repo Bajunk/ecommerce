@@ -2,15 +2,27 @@
 
 {% block title %} {{ page.titre }} {% endblock %}
 
+{% block stylesheets %}
+    <!-- <link rel="stylesheet" href="{#{ asset('bundles/pages/ckeditor/plugins/chart/chart.css') }#}"/> -->
+{% endblock %}
+
 {% block body %}
 
-<div class="container">
-    <div class="row">
-        <h1>{{ page.titre }}</h1>
-        <div class="span12">
-            {{ page.contenu|raw }}
+    <div class="container">
+        <div class="row">
+            <h1>{{ page.titre }}</h1>
+            <div class="span12">
+                {{ page.contenu|raw }}
+            </div>
         </div>
-    </div>
 </div>
 
+{% endblock %}
+
+{% block javascripts %}
+    <!-- Script important afin que l'affichage des formules mathématiques soit correct -->
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    <!-- <script src="{#{ asset('bundles/pages/ckeditor/plugins/chart/lib/chart.min.js') }#}"></script>
+    <script src="{#{ asset('bundles/pages/ckeditor/plugins/chart/widget2chart.js') }#}"></script> -->
 {% endblock %}

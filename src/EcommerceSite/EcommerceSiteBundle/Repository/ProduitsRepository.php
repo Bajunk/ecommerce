@@ -39,7 +39,7 @@ class ProduitsRepository extends EntityRepository
                 $queryBuilder->select('u') //pas besoin de clause from car on est déjà dans les produits
                              ->where($queryBuilder->expr()->like('u.nom', ':attribut'))
                              ->andWhere('u.disponible = 1')
-                             ->orderBy('u.id')
+                             ->orderBy('u.prix')
                              ->setParameter('attribut','%'.$attribut.'%');
         return $queryBuilder->getQuery()->getResult();
     }

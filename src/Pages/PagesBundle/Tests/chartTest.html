@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CKEditor</title>
+
+    <link href="http://wwalc.github.io/chart/plugins/chart/chart.css" rel="stylesheet">
+
+    <script src="http://cdn.ckeditor.com/4.5.1/full-all/ckeditor.js"></script>
+
+    <!-- Make sure to set correct paths -->
+    <script src="http://wwalc.github.io/chart/plugins/chart/lib/chart.min.js"></script>
+    <script src="http://wwalc.github.io/chart/plugins/chart/widget2chart.js"></script>
+    <script src="http://wwalc.github.io/chart/plugins/chart/plugin.js"></script>
+
+</head>
+<body>
+
+
+    <textarea cols="80" id="editor1" name="editor1" rows="10" > Some text </textarea>
+
+        <script>
+            if(true){
+                CKEDITOR.replace( 'editor1', {
+                    extraPlugins: 'mathjax',
+                    mathJaxLib: 'http://cdn.mathjax.org/mathjax/2.2-latest/MathJax.js?config=TeX-AMS_HTML',
+                    height: 320
+                } );
+            }
+            else{
+            CKEDITOR.plugins.addExternal('chart', '/chart/plugins/chart/', 'plugin.js');
+
+            CKEDITOR.addCss('div.featured { border: 3px dotted red }');
+            CKEDITOR.replace( 'editor1', {
+                extraPlugins: 'chart',
+                toolbar: [
+                    ['Source', 'Preview'], ['Undo', 'Redo'], ['Styles', 'Bold', 'Italic', 'Underline'], ['Chart']
+                ],
+                stylesSet: [
+                    {name: 'Featured', type: 'widget', widget: 'chart', attributes: {'class': 'featured'}},
+                    {name: 'Italic', element: 'p', styles: {'font-style': 'italic'}}
+                ],
+                height: 560,
+                width: 800
+            });
+            }
+        </script>
+
+<h2>Rendering charts on a website</h2>
+
+<p>CKEditor returns a div element, which needs to be converted into a chart by Chart.js. This is done automatically,
+    after adding two JavaScript files to a website.</p>
+
+<h3>Example</h3>
+
+<p>Will you make a new year&#39;s resolution next year?</p>
+
+<div class="chartjs" data-chart="doughnut" data-chart-height="200"
+     data-chart-value="[{&quot;value&quot;:40,&quot;label&quot;:&quot;Yes&quot;},{&quot;value&quot;:30,&quot;label&quot;:&quot;No&quot;},{&quot;value&quot;:30,&quot;label&quot;:&quot;Undecided&quot;}]">
+    chart
+</div>
+
+</body>
+</html>

@@ -35,10 +35,10 @@ class ProduitsController extends Controller
             $panier = false;
         }
 
-        $produits  = $this->get('knp_paginator')->paginate($productsFound,$request->query->get('page', 1)/*page number*/,3/*limit per page*/);
-
+        $produits  = $this->get('knp_paginator')->paginate($productsFound,$request->query->get('page', 1),3);
+                                                                                            /* ici limite par page = 3*/
         return $this->render('EcommerceSiteBundle:Produits/Layout:produits.html.twig', array('produits' => $produits,
-                                                                                             'panier' => $panier));
+                                                                             'panier'   => $panier));
     }
 
     /**
@@ -59,7 +59,7 @@ class ProduitsController extends Controller
         else $panier = false;
 
         return $this->render('EcommerceSiteBundle:Produits/Layout:presentation.html.twig', array('produit' => $produit,
-                                                                                                 'panier' => $panier ));
+                                                                                 'panier' => $panier ));
     }
 
     /**
@@ -98,23 +98,27 @@ class ProduitsController extends Controller
     {
         //---- Ici on ne veut pas que le client puisse rajouter des produits qu'il a déjà dans son panier --
          $session = $request->getSession();
-         if($session->has('panier')) $panier = $session->get('panier');
-         else $panier = false;
+         if($session->has('panier'))
+             $panier = $session->get('panier');
+         else
+             $panier = false;
         //---------------------------------------------------------------------------------------------------
         $form = $this->createForm(new RechercheType());
 
-        if($request->getMethod() == 'POST')
+        if($request->isMethod('POST'))
         {
             $form->handleRequest($request);
             $attribut = $form['recherche']->getData();
 
             $em = $this->getDoctrine()->getManager();
-            $produits = $em->getRepository('EcommerceSiteBundle:Produits')->findByAttribute($attribut);
+            $productsFound = $em->getRepository('EcommerceSiteBundle:Produits')->findByAttribute($attribut);
+
+            $produits  = $this->get('knp_paginator')->paginate($productsFound,$request->query->get('page', 1),100);
         }
         else throw $this->createNotFoundException('La page n\'existe pas');
 
-        return $this->render('EcommerceSiteBundle:Produits/Layout:produits.html.twig', array('produits' => $produits,
-                                                                                             'panier' => $panier));
+        return $this->render('EcommerceSiteBundle:Produits/Layout:produits.html.twig',
+                              array('produits' => $produits,'panier' => $panier));
     }
 
     /**
